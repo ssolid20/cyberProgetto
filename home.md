@@ -22,7 +22,7 @@ In order to enter the  ```Kali Linux``` system we will need to enter  ```kali:ka
 
 To start, as an attacker (```Kali Linux User```), we first need to find or discover our victim (```Windows User```). By this I mean we need to find its IP address.
 
-First of all we need to execute (on ```Kali Linux system```)  ```ifconfig ``` command to know own IP address 
+First of all we need to execute (on ```Kali Linux system```)  ```ifconfig``` command to know own IP address 
 
 output (only relevant part) is 
 ```
