@@ -18,7 +18,7 @@ So our starting point gonna be:
 NOTE:
 In order to enter the  ```Kali Linux``` system we will need to enter  ```kali:kali``` credentials and for ```metasploitable3``` we will use  ```vagrant:vagrant``` credentials. After this we will have completly functional 2 operating systems
 
-# 3. Discovery
+## 3. Discovery
 
 To start, as an attacker (```Kali Linux User```), we first need to find or discover our victim (```Windows User```). By this I mean we need to find its IP address.
 
@@ -93,7 +93,7 @@ Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2025-06-30 18:55:
 
 ## 5. Controlling Victim’s PC via SSH
 
-So now we know, we can access via ```ssh``` victim’s computer using one of 2 credentials that ```hydra``` has found . Let's do this with  ```ssh vagrant@10.0.2.4 ```. After entering the password we have access to the victim's pc via ```ssh```.
+So now we know, we can access via ```ssh``` victim’s computer using one of 2 credentials that ```hydra``` has found . Let's do this with  ```ssh vagrant@10.0.2.4```. After entering the password we have access to the victim's pc via ```ssh```.
 
 ![](Screenshot%202025-07-01%20010144.png)
 
